@@ -1,0 +1,110 @@
+*{margin: 0;
+    box-sizing: border-box;
+}
+body{ 
+    background-image: url('https://res.cloudinary.com/ifunanya67/image/upload/v1655403704/bg-intro-desktop_y8n2dn.png');
+    background-color: rgb(191, 102, 132);
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display:flex;
+    flex-wrap: wrap;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.first-content{
+    width: 40%;
+    margin-top: 200px;
+    margin-left: 50px;
+    color: white;
+}
+.second-content{
+    width:40%;
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 100%;
+    
+}
+.classtwo{
+    background-color: rgb(39, 39, 149);
+    color: white;
+    padding: 10px;
+    border: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 700;}
+.logindetails{
+    padding: 10px;
+    background-color: white;
+    line-height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    
+    
+}
+
+input{
+     box-sizing: border-box;
+
+}
+#fname{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+#lname{
+    padding: 10px;
+    border-radius: 5px;
+}
+#email{
+    padding: 10px;
+    border-radius: 5px;
+}
+#password{
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn #submit{
+    background-color: #4caf50;
+    width: 400px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+.terms{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.spanone{
+    font-size: 12px;
+    font-weight: 700;
+}
+.spantwo{
+    color: red;
+}
+
+@media screen and (max-width:375px){
+    body{
+        background-image: url('https://res.cloudinary.com/ifunanya67/image/upload/v1655417362/bg-intro-mobile_ihdjoo.png');
+    background-color: rgb(191, 102, 132);
+    }
+    .classtwo, .logindetails {
+        flex-direction: column;
+        display: inline-block;
+    }
+    
+}
