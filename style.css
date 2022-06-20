@@ -1,9 +1,10 @@
 *{margin: 0;
     box-sizing: border-box;
+    
 }
 body{ 
     background-image: url('https://res.cloudinary.com/ifunanya67/image/upload/v1655403704/bg-intro-desktop_y8n2dn.png');
-    background-color: rgb(191, 102, 132);
+    background-color: rgb(210, 11, 77);
     font-family: 'Poppins', sans-serif;
 }
 main{
@@ -14,6 +15,10 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 50px;
+}
+.firstp{
+    font-size: 20px;
+    font-weight: 400;
 }
 .first-content{
     width: 40%;
@@ -26,30 +31,38 @@ h1{
     margin-top: 100px;
     margin-left: 100px;
     height: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    
     
 }
 .classtwo{
     background-color: rgb(39, 39, 149);
     color: white;
-    padding: 10px;
+    padding: 20px;
     border: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
     text-align: center;
     font-weight: 700;}
 .logindetails{
-    padding: 10px;
+    padding: 20px;
     background-color: white;
     line-height: 60px;
     border-radius: 5px;
     text-align: center;
     display: block;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 5px;
+    line-height: 100px;
     
     
 }
 
 input{
      box-sizing: border-box;
+     padding: 10px;
 
 }
 #fname{
@@ -72,7 +85,7 @@ input{
 }
 .btn #submit{
     background-color: #4caf50;
-    width: 400px;
+    width: 75%;
     text-decoration: none;
     text-align: center;
     display: inline-block;
@@ -97,14 +110,67 @@ input{
     color: red;
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:1200px) and (min-width: 701px) {
+    .second-content{
+        display: inline-block;
+        width: 40%;
+        flex-direction: row;
+        justify-content: center;
+
+
+        
+    }
+    input{
+        width: 80%;
+        box-sizing: border-box;
+    }
+    .first-content{
+        width: 40%;
+    }
+
+}
+@media screen and (max-width:700px){
     body{
         background-image: url('https://res.cloudinary.com/ifunanya67/image/upload/v1655417362/bg-intro-mobile_ihdjoo.png');
-    background-color: rgb(191, 102, 132);
+    background-color: rgb(210, 11, 77);
     }
-    .classtwo, .logindetails {
+    .logindetails {
         flex-direction: column;
         display: inline-block;
+    
     }
+    .first-content{
+        width: 100%;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        
+    }
+    .firstp{
+        width: 100%;
+    }
+    .logindetails{
+
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 40px;
+        margin-left: 5px;
+        border-radius: 20px;
+        width: 100%;
+        
+        
+        
+    }
+    input{
+        width: 90%;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+    
+    
+
     
 }

@@ -14,33 +14,40 @@
     </head>
     <body>
         <main>
-        <div class="first-content">
+        <div class="first-content" width="100%">
             <h1>
                 Learn to code by watching others
             </h1>
-            <p>
+            <p class="firstp" width="100%">
                 see how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable</p>
         </div>
        
-        <div class="second-content">
+        <div class="second-content" width="90%", height="80%">
             <div>
-                <p class="classtwo">Try it free for 7days <span class="spanone">then $20/mo, thereafter</span></p>
+                <p class="classtwo" width="90%">Try it free for 7days <span class="spanone">then $20/mo, thereafter</span></p>
             </div>
             <form action="">
                 <div class="logindetails">
                     <div>
-                        <input type="text" name="fname" id="fname" placeholder="First Name" size="50" required>
+                        <input type="text" name="fname" id="fname" placeholder="First Name" size="80"  required>
                     </div>
+                    <div class="error" data-error="First name cannot be empty"></div>
+
                     <div>
                 
-                    <input type="text" name="lname" id="lname" placeholder="Last Name" size="50" required>
+                    <input type="text" name="lname" id="lname" placeholder="Last Name" size="80" required>
                 </div>
+                <div class="error" data-error="Last name cannot be empty"></div>
                 <div>
-                    <input type="email" name="email" id="email" placeholder="Email Address" size="50" required>
+                    <input type="email" name="email" id="email" placeholder="Email Address" size="80" required>
                 </div>
+                <div class="error" data-error="Email name cannot be empty"></div>
+
                 <div>
-                    <input type="password" name="password" id="password" placeholder="password" size="50" required>
+                    <input type="password" name="password" id="password" placeholder="password" size="80" required>
                 </div>
+                <div class="error" data-error="Last name cannot be empty"></div>
+
             
                 <div>
                     <div class="btn">
