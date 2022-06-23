@@ -172,6 +172,9 @@ input{
         box-sizing: border-box;
         display: inline-block;
     }
+    .terms{
+        line-height: 3;
+    }
     
     
 
